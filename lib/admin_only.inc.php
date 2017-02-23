@@ -2924,6 +2924,7 @@ function WPCW_quizzes_getPercentageList($addBlank = false)
  */
 function WPCW_quizzes_getCoursesNeedingAttentionCount()
 {
+/*
 	// Globals
 	global $wpdb, $wpcwdb;
     $wpdb->show_errors();
@@ -2947,6 +2948,8 @@ function WPCW_quizzes_getCoursesNeedingAttentionCount()
 		FROM $wpcwdb->user_progress_quiz
 		WHERE quiz_is_latest = 'latest'
 		AND (quiz_needs_marking > 0 OR quiz_next_step_type = 'quiz_fail_no_retakes');");
+*/
+return 0;
 }
 
 /**
